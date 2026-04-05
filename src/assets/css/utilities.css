@@ -1,0 +1,176 @@
+/* Font Family */
+.font-display {
+  font-family: var(--font-display);
+}
+.font-body {
+  font-family: var(--font-body);
+}
+
+/* Font Size */
+.text-hero {
+  font-size: var(--text-hero);
+  line-height: var(--leading-tight);
+  letter-spacing: var(--tracking-tight);
+}
+.text-h1 {
+  font-size: var(--text-h1);
+  line-height: var(--leading-snug);
+}
+.text-h2 {
+  font-size: var(--text-h2);
+}
+.text-h3 {
+  font-size: var(--text-h3);
+}
+.text-body-lg {
+  font-size: var(--text-body-lg);
+}
+.text-body {
+  font-size: var(--text-body);
+}
+.text-sm {
+  font-size: var(--text-sm);
+}
+.text-xs {
+  font-size: var(--text-xs);
+}
+.text-label {
+  font-size: var(--text-label);
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-widest);
+}
+
+/* Font Weight */
+.fw-light {
+  font-weight: var(--weight-light);
+}
+.fw-regular {
+  font-weight: var(--weight-regular);
+}
+.fw-medium {
+  font-weight: var(--weight-medium);
+}
+.fw-semibold {
+  font-weight: var(--weight-semibold);
+}
+.fw-bold {
+  font-weight: var(--weight-bold);
+}
+
+/* Text Colors */
+.text-teal-600 {
+  color: var(--teal-600);
+}
+.text-gray-900 {
+  color: var(--gray-900);
+}
+.text-gray-700 {
+  color: var(--gray-700);
+}
+.text-gray-500 {
+  color: var(--gray-500);
+}
+.text-white {
+  color: var(--white);
+}
+.text-accent {
+  color: var(--accent);
+}
+
+/* Background Colors */
+.bg-teal-600 {
+  background-color: var(--teal-600);
+}
+.bg-teal-50 {
+  background-color: var(--teal-50);
+}
+.bg-gray-100 {
+  background-color: var(--gray-100);
+}
+.bg-white {
+  background-color: var(--white);
+}
+.bg-accent {
+  background-color: var(--accent);
+}
+
+/* Padding */
+.p-4 {
+  padding: var(--space-4);
+}
+.pt-4 {
+  padding-top: var(--space-4);
+}
+.pb-4 {
+  padding-bottom: var(--space-4);
+}
+.py-6 {
+  padding-top: var(--space-6);
+  padding-bottom: var(--space-6);
+}
+.px-6 {
+  padding-left: var(--space-6);
+  padding-right: var(--space-6);
+}
+
+/* Margin */
+.m-4 {
+  margin: var(--space-4);
+}
+.mt-4 {
+  margin-top: var(--space-4);
+}
+.mb-4 {
+  margin-bottom: var(--space-4);
+}
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/* Section Specific */
+.section-pad {
+  padding-top: var(--space-section);
+  padding-bottom: var(--space-section);
+}
+
+.container {
+  max-width: var(--max-width);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--page-margin);
+  padding-right: var(--page-margin);
+}
+
+.grid {
+  display: grid;
+  gap: var(--grid-gap);
+}
+
+.rounded-md {
+  border-radius: var(--radius-md);
+}
+.rounded-xl {
+  border-radius: var(--radius-xl);
+}
+.rounded-pill {
+  border-radius: var(--radius-pill);
+}
+
+.shadow-sm {
+  box-shadow: var(--shadow-sm);
+}
+.shadow-md {
+  box-shadow: var(--shadow-md);
+}
+
+/* The "Lift" effect for cards */
+.hover-lift {
+  transition: var(--transition-card);
+}
+
+.hover-lift:hover {
+  transform: var(--lift-md);
+  box-shadow: var(--shadow-teal);
+  border-color: var(--teal-300);
+}
