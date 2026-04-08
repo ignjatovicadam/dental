@@ -8,8 +8,8 @@
 defineProps({
   primary: {
     type: Boolean,
-    default: false
-  }
+    default: false,
+  },
 })
 </script>
 

@@ -1,0 +1,5 @@
+export * from './dental-icon-base'
+export * from './dental-icon-arrow-next'
+export * from './dental-icon-arrow-prev'
+export * from './dental-icon-cleaning'
+export * from './dental-icon-link'

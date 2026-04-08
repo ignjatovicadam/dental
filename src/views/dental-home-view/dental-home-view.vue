@@ -12,11 +12,13 @@
       </div>
     </div>
   </section>
+  <dental-home-view-services />
 </template>
 
 <script setup>
 import img from '@/assets/images/2.png'
 import { DentalButton } from '@/components'
+import DentalHomeViewServices from './dental-home-view-services.vue'
 </script>
 
 <style scoped>
