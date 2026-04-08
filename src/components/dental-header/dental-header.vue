@@ -12,7 +12,9 @@
 
         <dental-mobile-button :open="open" @click="open = !open" />
         <dental-mobile-menu :open="open" />
-        <button class="button primary hidden-on-mobile">Book Now</button>
+        <div class="hidden-on-mobile">
+          <dental-button primary>Book Now</dental-button>
+        </div>
       </div>
     </div>
   </header>
@@ -20,6 +22,7 @@
 
 <script setup>
 import { ref } from 'vue'
+import { DentalButton } from '@/components'
 import DentalMobileMenu from './dental-mobile-menu.vue'
 import DentalMobileButton from './dental-mobile-button.vue'
 import DentalNavList from './dental-nav-list.vue'
@@ -36,10 +39,18 @@ header {
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   box-shadow: var(--shadow-xs);
+  z-index: var(--z-sticky);
 }
 
 .header-content {
   min-height: var(--nav-height);
+}
+
+.logo-text {
+  font-family: var(--font-display);
+  font-size: var(--text-h2);
+  font-weight: var(--weight-bold);
+  color: var(--white);
 }
 
 @media (min-width: 768px) {
@@ -59,36 +70,5 @@ header {
     padding: 0 var(--space-6);
     border-radius: var(--radius-xl);
   }
-}
-
-.button {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  font-family: var(--font-display);
-  font-size: var(--text-sm);
-  font-weight: var(--weight-semibold);
-  padding: var(--space-3) var(--space-5);
-  border-radius: var(--radius-pill);
-  border: none;
-  cursor: pointer;
-  text-decoration: none;
-  transition: var(--transition-base);
-}
-
-.button.primary {
-  background: var(--accent);
-  color: var(--white);
-}
-
-.button.primary:hover {
-  background: var(--accent-hover);
-}
-
-.logo-text {
-  font-family: var(--font-display);
-  font-size: var(--text-h2);
-  font-weight: var(--weight-bold);
-  color: var(--white);
 }
 </style>

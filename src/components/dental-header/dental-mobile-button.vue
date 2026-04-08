@@ -1,5 +1,5 @@
 <template>
-  <div class="mobile-menu-button flex align-items-center justify-content-center hidden-on-desktop" @click="$emit('click')">
+  <div class="mobile-menu-button flex align-items-center justify-content-center hidden-on-desktop">
     <div :class="['hamburger', { open: open }]">
       <span></span>
       <span></span>
