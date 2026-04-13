@@ -32,7 +32,7 @@ const open = ref(false)
 
 <style scoped>
 header {
-  position: fixed;
+  position: absolute;
   top: 0;
   width: 100%;
   background: rgba(255, 255, 255, 0.2);

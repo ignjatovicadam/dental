@@ -99,7 +99,7 @@
   --space-7: 40px;
   --space-8: 48px;
   --space-9: 64px;
-  --space-section: 100px; /* Top/bottom padding for full sections */
+  --space-section: 50px; /* Top/bottom padding for full sections */
 
   /* ----------------------------------------------------------
   BORDER RADIUS
@@ -168,4 +168,10 @@
   --z-sticky: 100;
   --z-modal: 200;
   --z-toast: 300;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --space-section: 100px;
+  }
 }
