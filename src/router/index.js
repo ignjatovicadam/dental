@@ -9,12 +9,14 @@ const router = createRouter({
       path: '/',
       name: 'DentalHome',
       component: DentalHomeView,
+      meta: { darkHeader: true },
     },
     {
       path: '/contact',
       name: 'DentalContact',
       component: DentalContactView,
-    }
+      meta: { darkHeader: true },
+    },
   ],
 })
 

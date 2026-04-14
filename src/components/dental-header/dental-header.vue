@@ -3,7 +3,7 @@
     <div class="container">
       <div class="header-content flex align-items-center justify-content-between">
         <div class="header-logo">
-          <span class="logo-text">Dental</span>
+          <span class="logo-text">Dental Clinic</span>
         </div>
 
         <nav class="header-nav hidden-on-mobile">
@@ -50,6 +50,7 @@ header {
   font-family: var(--font-display);
   font-size: var(--text-h2);
   font-weight: var(--weight-bold);
+  letter-spacing: var(--tracking-tight);
   color: var(--white);
 }
 
@@ -59,7 +60,7 @@ header {
     backdrop-filter: unset;
     -webkit-backdrop-filter: unset;
     box-shadow: unset;
-    padding: var(--space-4) 0;
+    padding-block: var(--space-4);
   }
 
   .header-content {
@@ -67,7 +68,7 @@ header {
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     box-shadow: var(--shadow-xs);
-    padding: 0 var(--space-6);
+    padding-inline: var(--space-6);
     border-radius: var(--radius-xl);
   }
 }

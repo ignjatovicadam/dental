@@ -22,7 +22,7 @@
   font-family: var(--font-display);
   font-size: var(--text-sm);
   font-weight: var(--weight-medium);
-  color: var(--white);
+  color: var(--gray-300);
   text-decoration: none;
   transition: var(--transition-base);
 }

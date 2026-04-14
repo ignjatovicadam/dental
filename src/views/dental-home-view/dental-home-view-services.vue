@@ -1,8 +1,8 @@
 <template>
-  <section class="bg-gray-50">
+  <section>
     <div class="container">
       <div class="services-content flex align-items-center justify-content-between">
-        <h1 class="text-h1 fw-bold text-gray-900">Services</h1>
+        <h2 class="text-h1 fw-bold text-gray-900">Specialized Dental Services</h2>
         <div class="services-control-buttons">
           <button
             class="services-arrow prev"
@@ -224,6 +224,10 @@ section {
 
 .services-list-item {
   flex: 0 0 calc((100% - var(--grid-gap) * 2) / 3.2);
+}
+
+.services-list-item:hover {
+    cursor: pointer;
 }
 
 @media (max-width: 767px) {

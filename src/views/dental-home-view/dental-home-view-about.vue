@@ -2,7 +2,7 @@
   <section>
     <div class="container">
       <div class="about-content">
-        <h1>About Our Dental Clinic</h1>
+        <h2>Your Trusted Family Dentist in Belgrade</h2>
         <p>
           We are committed to providing the highest quality dental care in a comfortable and
           friendly environment. Our team of experienced professionals is here to ensure your smile
@@ -23,14 +23,14 @@ import img from '@/assets/images/dental-clinic-photo.png'
 <style scoped>
 section {
   padding-block: var(--section-padding-y);
-  background-color: var(--teal-50);
+  background-color: var(--gray-50);
 }
 
 .about-content {
   max-width: 680px;
 }
 
-.about-content h1 {
+.about-content h2 {
   font-family: var(--font-display);
   font-size: var(--text-h1);
   font-weight: var(--weight-bold);

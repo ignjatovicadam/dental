@@ -3,7 +3,7 @@
     <div class="container">
       <div class="footer-content">
         <div class="footer-text">
-          <h3>Have a shining smile</h3>
+          <h3>Book Your Dental Consultation Today</h3>
           <p>Contact us by sending us an email or via phone number</p>
         </div>
         <div class="footer-quick-links">
@@ -28,7 +28,7 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <span>&copy; 2024 Dental Clinic. All rights reserved.</span>
+        <span class="footer-copy">&copy; 2024 Dental Clinic. All rights reserved.</span>
         <ul class="footer-policy-links">
           <li><a href="#">Privacy Policy</a></li>
           <li><a href="#">Terms of Service</a></li>
@@ -79,7 +79,7 @@
 
   .footer-quick-links {
     display: flex;
-    gap: var(--space-8);
+    gap: var(--space-9);
   }
 
   .footer-col h3 {
@@ -87,7 +87,7 @@
     font-size: var(--text-h3);
     font-weight: var(--weight-bold);
     line-height: var(--leading-snug);
-    letter-spacing: var(--tracking-tight);
+    letter-spacing: var(--tracking-wider);
     color: var(--gray-900);
   }
 
@@ -103,10 +103,10 @@
 
   .footer-col ul li a {
     font-family: var(--font-body);
-    font-size: var(--text-body-lg);
+    font-size: var(--text-sm);
     font-weight: var(--weight-regular);
     line-height: var(--leading-relaxed);
-    color: var(--gray-700);
+    color: var(--gray-500);
     text-decoration: none;
   }
 
@@ -137,13 +137,21 @@
     padding: 0;
   }
 
-  .footer-policy-links li a {
+  .footer-copy {
     font-family: var(--font-body);
-    font-size: var(--text-body-sm);
+    font-size: var(--text-sm);
     font-weight: var(--weight-regular);
     line-height: var(--leading-relaxed);
-    color: var(--gray-700);
-    text-decoration: none;
+    color: var(--gray-600);
+  }
+
+  .footer-policy-links li a {
+    font-family: var(--font-body);
+    font-size: var(--text-sm);
+    font-weight: var(--weight-regular);
+    line-height: var(--leading-relaxed);
+    color: var(--gray-500);
+    text-decoration: underline;
   }
 
   .footer-policy-links li a:hover {

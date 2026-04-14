@@ -3,7 +3,7 @@
     <div class="container">
       <div class="contact-card">
         <div class="contact-info">
-          <h2>Get in Touch</h2>
+          <h1>Get in Touch</h1>
           <p>Have questions or want to book an appointment? Reach out to us directly.</p>
 
           <ul class="contact-list">
@@ -36,12 +36,13 @@
   </section>
 </template>
 
-<script setup></script>
+<script setup>
+</script>
 
 <style scoped>
 section {
-  padding-block: var(--space-9);
-  background-color: var(--gray-600);
+  padding-block: var(--section-padding-y);
+  background-color: var(--white);
 }
 
 .contact-card {
@@ -49,8 +50,8 @@ section {
   grid-template-columns: 1fr;
   gap: var(--grid-gap-lg);
   border-radius: var(--radius-2xl);
-  padding: var(--space-7);
   overflow: hidden;
+  padding-top: 72px;
 }
 
 .contact-info {
@@ -59,13 +60,13 @@ section {
   gap: var(--space-5);
 }
 
-.contact-info h2 {
+.contact-info h1 {
   font-family: var(--font-display);
   font-size: var(--text-h2);
   font-weight: var(--weight-bold);
   line-height: var(--leading-snug);
   letter-spacing: var(--tracking-tight);
-  color: var(--white);
+  color: var(--gray-900);
 }
 
 .contact-info > p {
@@ -73,7 +74,7 @@ section {
   font-size: var(--text-body);
   font-weight: var(--weight-regular);
   line-height: var(--leading-relaxed);
-  color: var(--gray-400);
+  color: var(--gray-900);
 }
 
 .contact-list {
@@ -105,7 +106,7 @@ section {
   font-family: var(--font-body);
   font-size: var(--text-body);
   line-height: var(--leading-normal);
-  color: var(--gray-300);
+  color: var(--gray-900);
   text-decoration: none;
   transition: var(--transition-base);
 }
@@ -131,7 +132,6 @@ section {
 @media (min-width: 768px) {
   .contact-card {
     grid-template-columns: 1fr 1fr;
-    padding: var(--space-8);
   }
 
   .contact-map {
