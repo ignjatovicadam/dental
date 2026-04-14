@@ -1,5 +1,4 @@
 <template>
-  <dental-contact-hero />
   <section>
     <div class="container">
       <div class="contact-card">
@@ -40,7 +39,6 @@
 </template>
 
 <script setup>
-import DentalContactHero from './dental-contact-hero.vue'
 </script>
 
 <style scoped>

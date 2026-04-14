@@ -1,13 +1,12 @@
 <template>
-<section class="hero">
-    <img :src="img" alt="Dentist app welcome image woman smiling" />
+  <section class="hero">
+    <img :src="img" alt="Dental clinic hero image" srcset="">
     <div class="hero-overlay"></div>
     <div class="container">
       <div class="hero-content">
-        <h1 class="text-hero">Comprehensive Dental Care in Belgrade</h1>
+        <h1>Visit Our Belgrade Dental Practice</h1>
         <p>We provide top-notch dental care for you and your family. Book an appointment today!</p>
         <div>
-          <dental-button primary>Book Now</dental-button>
         </div>
       </div>
     </div>
@@ -15,14 +14,13 @@
 </template>
 
 <script setup>
-import img from '@/assets/images/2.png'
-import { DentalButton } from '@/components'
+import img from '@/assets/images/hero-background.jpg'
 </script>
 
 <style scoped>
 .hero {
   position: relative;
-  min-height: 660px;
+  min-height: 360px;
   display: flex;
   align-items: flex-end;
   overflow: hidden;
@@ -61,6 +59,10 @@ import { DentalButton } from '@/components'
 
 .hero-content h1 {
   font-family: var(--font-display);
+  font-size: var(--text-h1);
+  font-weight: var(--weight-bold);
+  line-height: var(--leading-snug);
+  letter-spacing: var(--tracking-tight);
   color: var(--white);
 }
 
@@ -74,7 +76,6 @@ import { DentalButton } from '@/components'
 
 @media (min-width: 768px) {
   .hero {
-    min-height: 900px;
     align-items: center;
   }
 }
