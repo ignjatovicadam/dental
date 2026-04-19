@@ -24,7 +24,7 @@
             <dental-card>
               <div class="dental-card-header flex align-items-center justify-content-between">
                 <dental-icon-base>
-                  <img :src="toothCheckmark" alt="">
+                  <img :src="toothCheckmark" alt="" />
                 </dental-icon-base>
                 <dental-icon-link />
               </div>
@@ -41,14 +41,15 @@
             <dental-card>
               <div class="dental-card-header flex align-items-center justify-content-between">
                 <dental-icon-base>
-                  <img :src="toothStar" alt="">
+                  <img :src="toothStar" alt="" />
                 </dental-icon-base>
                 <dental-icon-link />
               </div>
               <div class="dental-card-body">
                 <h3>Teeth Whitening</h3>
                 <p>
-                  Brightens teeth by removing stains and discoloration, enhancing the overall appearance of your smile.
+                  Brightens teeth by removing stains and discoloration, enhancing the overall
+                  appearance of your smile.
                 </p>
               </div>
             </dental-card>
@@ -57,14 +58,15 @@
             <dental-card>
               <div class="dental-card-header flex align-items-center justify-content-between">
                 <dental-icon-base>
-                  <img :src="toothShield" alt="">
+                  <img :src="toothShield" alt="" />
                 </dental-icon-base>
                 <dental-icon-link />
               </div>
               <div class="dental-card-body">
                 <h3>Cavity Repair</h3>
                 <p>
-                  Restoration of teeth damaged by cavities with aesthetic materials that blend perfectly with the natural tooth colour.
+                  Restoration of teeth damaged by cavities with aesthetic materials that blend
+                  perfectly with the natural tooth colour.
                 </p>
               </div>
             </dental-card>
@@ -73,14 +75,15 @@
             <dental-card>
               <div class="dental-card-header flex align-items-center justify-content-between">
                 <dental-icon-base>
-                  <img :src="toothRetainers" alt="">
+                  <img :src="toothRetainers" alt="" />
                 </dental-icon-base>
                 <dental-icon-link />
               </div>
               <div class="dental-card-body">
                 <h3>Dental Alignment</h3>
                 <p>
-                  Corrects misaligned teeth and bite issues, improving oral health and enhancing the appearance of your smile.
+                  Corrects misaligned teeth and bite issues, improving oral health and enhancing the
+                  appearance of your smile.
                 </p>
               </div>
             </dental-card>
@@ -89,7 +92,7 @@
             <dental-card>
               <div class="dental-card-header flex align-items-center justify-content-between">
                 <dental-icon-base>
-                  <img :src="toothCheckmark" alt="">
+                  <img :src="toothCheckmark" alt="" />
                 </dental-icon-base>
                 <dental-icon-link />
               </div>
@@ -114,12 +117,7 @@ import toothCheckmark from '@/assets/images/tooth-checkmark.png'
 import toothStar from '@/assets/images/tooth-star.png'
 import toothShield from '@/assets/images/tooth-shield.png'
 import toothRetainers from '@/assets/images/tooth-retainers.png'
-import {
-  DentalIconArrowPrev,
-  DentalIconArrowNext,
-  DentalIconBase,
-  DentalIconLink,
-} from '@/icons'
+import { DentalIconArrowPrev, DentalIconArrowNext, DentalIconBase, DentalIconLink } from '@/icons'
 import { DentalCard } from '@/components'
 
 const TOTAL_CARDS = 5
@@ -227,7 +225,7 @@ section {
 }
 
 .services-list-item:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 @media (max-width: 767px) {

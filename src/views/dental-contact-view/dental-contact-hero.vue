@@ -1,16 +1,15 @@
 <template>
-  <section class="hero">
-    <img :src="img" alt="Dental clinic hero image" srcset="">
+  <div class="hero">
+    <img :src="img" alt="Dental clinic hero image" srcset="" />
     <div class="hero-overlay"></div>
     <div class="container">
       <div class="hero-content">
         <h1>Visit Our Belgrade Dental Practice</h1>
         <p>We provide top-notch dental care for you and your family. Book an appointment today!</p>
-        <div>
-        </div>
+        <div></div>
       </div>
     </div>
-  </section>
+  </div>
 </template>
 
 <script setup>
@@ -77,6 +76,7 @@ import img from '@/assets/images/hero-background.jpg'
 @media (min-width: 768px) {
   .hero {
     align-items: center;
+    min-height: 460px;
   }
 }
 </style>

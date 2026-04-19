@@ -4,8 +4,9 @@
       <div class="contact-card">
         <div class="contact-info">
           <h2>Get in Touch</h2>
-          <p>We are here to answer all your questions and schedule your next appointment.
-              Write to us, call us, or drop by: your new smile starts here.
+          <p>
+            We are here to answer all your questions and schedule your next appointment. Write to
+            us, call us, or drop by: your new smile starts here.
           </p>
 
           <ul class="contact-list">
@@ -15,7 +16,9 @@
             </li>
             <li>
               <span class="contact-label">Email</span>
-              <a class="contact-option" href="mailto:hello@dentalclinic.com">hello@dentalclinic.com</a>
+              <a class="contact-option" href="mailto:hello@dentalclinic.com"
+                >hello@dentalclinic.com</a
+              >
             </li>
             <li>
               <span class="contact-label">Address</span>
@@ -38,8 +41,7 @@
   </section>
 </template>
 
-<script setup>
-</script>
+<script setup></script>
 
 <style scoped>
 section {
