@@ -3,7 +3,7 @@
     <div class="container">
       <div class="contact-card">
         <div class="contact-info">
-          <h2>Get in Touch</h2>
+          <h2 v-reveal>Get in Touch</h2>
           <p>
             We are here to answer all your questions and schedule your next appointment. Write to
             us, call us, or drop by: your new smile starts here.

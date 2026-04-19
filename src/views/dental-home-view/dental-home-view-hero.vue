@@ -4,9 +4,11 @@
     <div class="hero-overlay"></div>
     <div class="container">
       <div class="hero-content">
-        <h1 class="text-hero">Comprehensive Dental Care in Belgrade</h1>
-        <p>We provide top-notch dental care for you and your family. Book an appointment today!</p>
-        <div>
+        <h1 v-reveal class="text-hero">Comprehensive Dental Care in Belgrade</h1>
+        <p v-reveal="200">
+          We provide top-notch dental care for you and your family. Book an appointment today!
+        </p>
+        <div v-reveal="350">
           <dental-button primary>Book Now</dental-button>
         </div>
       </div>

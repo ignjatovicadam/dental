@@ -2,7 +2,7 @@
   <section>
     <div class="container">
       <div class="services-content flex align-items-center justify-content-between">
-        <h2 class="text-h1 fw-bold text-gray-900">Specialized Dental Services</h2>
+        <h2 v-reveal class="text-h1 fw-bold text-gray-900">Specialized Dental Services</h2>
         <div class="services-control-buttons">
           <button
             class="services-arrow prev"

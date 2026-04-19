@@ -218,3 +218,15 @@
   box-shadow: var(--shadow-teal);
   border-color: var(--teal-300);
 }
+
+/* Scroll-reveal animation (used by v-reveal directive) */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: var(--transition-reveal);
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}

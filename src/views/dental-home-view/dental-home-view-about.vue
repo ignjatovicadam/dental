@@ -2,7 +2,7 @@
   <section>
     <div class="container">
       <div class="about-content">
-        <h2>Your Trusted Family Dentist in Belgrade</h2>
+        <h2 v-reveal>Your Trusted Family Dentist in Belgrade</h2>
         <p>
           We are committed to providing the highest quality dental care in a comfortable and
           friendly environment. Our team of experienced professionals is here to ensure your smile

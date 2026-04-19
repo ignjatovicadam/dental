@@ -5,7 +5,9 @@
     <div class="container">
       <div class="hero-content">
         <h1>Whitening Services</h1>
-        <p>We provide top-notch dental care for you and your family. Book an appointment today!</p>
+        <p>
+          We provide top-notch dental care for you and your family. Book an appointment today!
+        </p>
         <div></div>
       </div>
     </div>
