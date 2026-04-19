@@ -34,6 +34,7 @@
                   Removes plaque and tartar to prevent cavities and gum disease, maintaining a
                   healthy and bright smile.
                 </p>
+                <span>Read more</span>
               </div>
             </dental-card>
           </div>
@@ -51,6 +52,7 @@
                   Brightens teeth by removing stains and discoloration, enhancing the overall
                   appearance of your smile.
                 </p>
+                <span>Read more</span>
               </div>
             </dental-card>
           </div>
@@ -68,6 +70,7 @@
                   Restoration of teeth damaged by cavities with aesthetic materials that blend
                   perfectly with the natural tooth colour.
                 </p>
+                <span>Read more</span>
               </div>
             </dental-card>
           </div>
@@ -85,6 +88,7 @@
                   Corrects misaligned teeth and bite issues, improving oral health and enhancing the
                   appearance of your smile.
                 </p>
+                <span>Read more</span>
               </div>
             </dental-card>
           </div>
@@ -102,6 +106,7 @@
                   Removes plaque and tartar to prevent cavities and gum disease, maintaining a
                   healthy and bright smile.
                 </p>
+                <span>Read more</span>
               </div>
             </dental-card>
           </div>
@@ -226,6 +231,13 @@ section {
 
 .services-list-item:hover {
   cursor: pointer;
+}
+
+.dental-card-body span {
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-medium);
+  color: var(--gray-500);
 }
 
 @media (max-width: 767px) {

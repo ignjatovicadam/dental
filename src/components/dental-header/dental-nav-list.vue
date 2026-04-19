@@ -1,10 +1,9 @@
 <template>
   <ul class="nav-list">
-    <li class="nav-item"><a href="#">Home</a></li>
-    <li class="nav-item"><a href="#">Services</a></li>
-    <li class="nav-item"><a href="#">About Us</a></li>
-    <li class="nav-item"><a href="#">Prices</a></li>
-    <li class="nav-item"><router-link to="/contact" class="nav-item">Contact</router-link></li>
+    <li class="nav-item"><router-link to="/">Home</router-link></li>
+    <li class="nav-item"><router-link to="/services/teeth-whitening">Services</router-link></li>
+    <li class="nav-item"><router-link to="/prices">Prices</router-link></li>
+    <li class="nav-item"><router-link to="/contact">Contact</router-link></li>
   </ul>
 </template>
 

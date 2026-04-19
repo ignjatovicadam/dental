@@ -3,7 +3,7 @@
     <div class="container">
       <div class="header-content flex align-items-center justify-content-between">
         <div class="header-logo">
-          <span class="logo-text">Dental Clinic</span>
+          <router-link to="/" class="logo-text">Dental Clinic</router-link>
         </div>
 
         <nav class="header-nav hidden-on-mobile">
@@ -52,6 +52,12 @@ header {
   font-weight: var(--weight-bold);
   letter-spacing: var(--tracking-tight);
   color: var(--white);
+  transition: var(--transition-base);
+  text-decoration: none;
+}
+
+.logo-text:hover {
+  color: var(--teal-100);
 }
 
 @media (min-width: 768px) {
