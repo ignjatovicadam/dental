@@ -1,6 +1,6 @@
 <template>
   <div class="hero">
-    <img :src="img" alt="Dental clinic hero image" srcset="" />
+    <img :src="img" alt="Dental clinic hero image" loading="eager" />
     <div class="hero-overlay"></div>
     <div class="container">
       <div class="hero-content">

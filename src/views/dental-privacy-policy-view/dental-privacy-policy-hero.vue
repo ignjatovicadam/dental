@@ -1,42 +1,32 @@
 <template>
-  <section class="hero">
-    <img
-      :src="img"
-      alt="Dentist app welcome image woman smiling"
-      class="hero-img"
-      loading="eager"
-    />
+  <div class="hero">
+    <img :src="img" alt="Dental clinic hero image" loading="eager" />
     <div class="hero-overlay"></div>
     <div class="container">
       <div class="hero-content">
-        <h1 v-reveal class="text-hero">Comprehensive Dental Care in Belgrade</h1>
-        <p v-reveal="200">
-          We provide top-notch dental care for you and your family. Book an appointment today!
+        <h1>Legal Documents</h1>
+        <p>
+          Your privacy matters to us. Learn how we handle and protect your personal information.
         </p>
-        <div v-reveal="350">
-          <dental-button primary>Book Now</dental-button>
-        </div>
       </div>
     </div>
-  </section>
+  </div>
 </template>
 
 <script setup>
 import img from '@/assets/images/2.png'
-import { DentalButton } from '@/components'
-
 </script>
 
 <style scoped>
 .hero {
   position: relative;
-  min-height: 660px;
+  min-height: 360px;
   display: flex;
   align-items: flex-end;
   overflow: hidden;
 }
 
-.hero-img {
+.hero img {
   position: absolute;
   inset: 0;
   width: 100%;
@@ -69,6 +59,10 @@ import { DentalButton } from '@/components'
 
 .hero-content h1 {
   font-family: var(--font-display);
+  font-size: var(--text-h1);
+  font-weight: var(--weight-bold);
+  line-height: var(--leading-snug);
+  letter-spacing: var(--tracking-tight);
   color: var(--white);
 }
 
@@ -82,8 +76,8 @@ import { DentalButton } from '@/components'
 
 @media (min-width: 768px) {
   .hero {
-    min-height: 900px;
     align-items: center;
+    min-height: 460px;
   }
 }
 </style>

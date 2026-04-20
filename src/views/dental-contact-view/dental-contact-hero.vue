@@ -1,6 +1,6 @@
 <template>
   <div class="hero">
-    <img :src="img" alt="Dental clinic hero image" srcset="" />
+    <img :src="img" alt="Dental clinic hero image" srcset="" loading="eager"/>
     <div class="hero-overlay"></div>
     <div class="container">
       <div class="hero-content">
@@ -15,7 +15,7 @@
 </template>
 
 <script setup>
-import img from '@/assets/images/hero-background.jpg'
+import img from '@/assets/images/2.png'
 </script>
 
 <style scoped>

@@ -29,8 +29,8 @@
       <div class="footer-bottom">
         <span class="footer-copy">&copy; 2024 Dental Clinic. All rights reserved.</span>
         <ul class="footer-policy-links">
-          <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">Terms of Service</a></li>
+          <li><router-link to="/privacy-policy">Privacy Policy</router-link></li>
+          <li><router-link to="/terms-of-use">Terms of Service</router-link></li>
         </ul>
       </div>
     </div>
