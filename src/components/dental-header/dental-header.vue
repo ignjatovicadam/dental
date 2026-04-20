@@ -11,7 +11,7 @@
         </nav>
 
         <dental-mobile-button :open="open" @click="open = !open" />
-        <dental-mobile-menu :open="open" />
+        <dental-mobile-menu :open="open" @close="open = false" />
         <div class="hidden-on-mobile">
           <dental-button primary>Book Now</dental-button>
         </div>
