@@ -22,4 +22,8 @@ import { DentalHeader, DentalFooter } from '@/components'
 .fl {
   flex: 1;
 }
+
+.n {
+  display: none;
+}
 </style>
