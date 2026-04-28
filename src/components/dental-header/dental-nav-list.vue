@@ -73,8 +73,7 @@
 }
 
 .nav-item a:hover,
-.nav-dropdown-trigger:hover,
-.nav-dropdown:hover .nav-dropdown-trigger {
+.nav-dropdown-trigger:hover {
   color: var(--accent);
 }
 
@@ -127,11 +126,6 @@
 .nav-dropdown-menu a.router-link-active {
   background: var(--gray-50);
   color: var(--accent);
-}
-
-.nav-dropdown-menu a:hover .icon,
-.nav-dropdown-menu a.router-link-active .icon {
-  background: var(--accent-light);
 }
 
 .nav-dropdown-menu strong {
