@@ -1,7 +1,11 @@
 <template>
-  <button :class="['button', { primary }]">
+  <component
+    :is="to ? 'router-link' : 'button'"
+    :to="to"
+    :class="['button', { primary }]"
+  >
     <slot></slot>
-  </button>
+  </component>
 </template>
 
 <script setup>
@@ -9,6 +13,12 @@ defineProps({
   primary: {
     type: Boolean,
     default: false,
+  },
+  // When set, DentalButton renders as <router-link> instead of <button>.
+  // Accepts anything vue-router accepts (path string or a location object).
+  to: {
+    type: [String, Object],
+    default: null,
   },
 })
 </script>

@@ -9,12 +9,12 @@
     <div class="hero-overlay"></div>
     <div class="container">
       <div class="hero-content">
-        <h1 v-reveal class="text-hero">Comprehensive Dental Care in Belgrade</h1>
+        <h1 v-reveal class="text-hero">Kompletna stomatološka nega</h1>
         <p v-reveal="200">
-          We provide top-notch dental care for you and your family. Book an appointment today!
+          Brinemo o zdravlju i lepoti vašeg osmeha kroz savremenu stomatologiju, stručan pristup i pažljivo odabrane tretmane prilagođene vašim potrebama
         </p>
         <div v-reveal="350">
-          <dental-button primary>Book Now</dental-button>
+          <dental-button primary :to="{ name: 'DentalContact' }">Zakažite pregled</dental-button>
         </div>
       </div>
     </div>

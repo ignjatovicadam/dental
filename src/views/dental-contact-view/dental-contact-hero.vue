@@ -1,12 +1,12 @@
 <template>
   <div class="hero">
-    <img :src="img" alt="Dental clinic hero image" srcset="" loading="eager"/>
+    <img :src="img" alt="Stomatolog Lukić — ordinacija u Beogradu" srcset="" loading="eager"/>
     <div class="hero-overlay"></div>
     <div class="container">
       <div class="hero-content">
-        <h1>Visit Our Belgrade Dental Practice</h1>
+        <h1>Posetite našu ordinaciju u Beogradu</h1>
         <p>
-          We provide top-notch dental care for you and your family. Book an appointment today!
+          Pružamo vrhunsku stomatološku negu za vas i vašu porodicu. Zakažite svoj termin još danas!
         </p>
         <div></div>
       </div>

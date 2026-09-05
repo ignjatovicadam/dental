@@ -2,11 +2,9 @@
   <section>
     <div class="container">
       <div class="about-content">
-        <h2 v-reveal>Your Trusted Family Dentist in Belgrade</h2>
+        <h2 v-reveal>Vaš stomatolog od poverenja u Beogradu</h2>
         <p>
-          We are committed to providing the highest quality dental care in a comfortable and
-          friendly environment. Our team of experienced professionals is here to ensure your smile
-          stays healthy and beautiful.
+          Posvećeni smo pružanju vrhunske stomatološke nege u prijatnom, sigurnom i opuštenom okruženju. Naš stručni i iskusni tim tu je da brine o zdravlju vaših zuba i pomogne vam da sačuvate lep i zdrav osmeh dugi niz godina.
         </p>
       </div>
       <div class="dental-clinic-photo">

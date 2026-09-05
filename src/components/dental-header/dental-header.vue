@@ -3,7 +3,7 @@
     <div class="container">
       <div class="header-content flex align-items-center justify-content-between">
         <div class="header-logo">
-          <router-link to="/" class="logo-text">Dental Clinic</router-link>
+          <router-link to="/" class="logo-text">Stomatolog Lukić</router-link>
         </div>
 
         <nav class="header-nav hidden-on-mobile">
@@ -13,7 +13,7 @@
         <dental-mobile-button :open="open" @click="open = !open" />
         <dental-mobile-menu :open="open" @close="open = false" />
         <div class="hidden-on-mobile">
-          <dental-button primary>Book Now</dental-button>
+          <dental-button primary :to="{ name: 'DentalContact' }">Zakažite pregled</dental-button>
         </div>
       </div>
     </div>

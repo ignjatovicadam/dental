@@ -1,57 +1,34 @@
 <template>
   <ul class="nav-list">
     <li class="nav-item">
-      <router-link to="/">Home</router-link>
+      <router-link to="/">Početna</router-link>
     </li>
 
     <li class="nav-item nav-dropdown">
-      <span class="nav-dropdown-trigger">Services</span>
+      <span class="nav-dropdown-trigger">Usluge</span>
       <div class="nav-dropdown-menu">
-        <router-link to="/services/teeth-whitening">
+        <router-link
+          v-for="service in services"
+          :key="service.routeName"
+          :to="{ name: service.routeName }"
+        >
           <span>
-            <strong>Teeth Whitening</strong>
-            <small>Brighten & remove discoloration</small>
-          </span>
-        </router-link>
-        <router-link to="/services/dental-cleaning">
-          <span>
-            <strong>Dental Cleaning</strong>
-            <small>Remove plaque & prevent cavities</small>
-          </span>
-        </router-link>
-        <router-link to="/services/cavity-repair">
-          <span>
-            <strong>Cavity Repair</strong>
-            <small>Natural-looking restorations</small>
-          </span>
-        </router-link>
-        <router-link to="/services/dental-implants">
-          <span>
-            <strong>Dental Implants</strong>
-            <small>Permanent tooth replacement</small>
-          </span>
-        </router-link>
-        <router-link to="/services/orthodontics">
-          <span>
-            <strong>Orthodontics</strong>
-            <small>Braces & clear aligners</small>
-          </span>
-        </router-link>
-        <router-link to="/services/root-canal">
-          <span>
-            <strong>Root Canal</strong>
-            <small>Save & restore damaged teeth</small>
+            <strong>{{ service.label }}</strong>
+            <small>{{ service.tagline }}</small>
           </span>
         </router-link>
       </div>
     </li>
 
-    <li class="nav-item"><router-link to="/prices">Prices</router-link></li>
-    <li class="nav-item"><router-link to="/contact">Contact</router-link></li>
+    <li class="nav-item"><router-link to="/kontakt">Kontakt</router-link></li>
   </ul>
 </template>
 
-<script setup></script>
+<script setup>
+import { SERVICES_NAV } from '@/views/dental-services-view/services-nav'
+
+const services = SERVICES_NAV
+</script>
 
 <style scoped>
 .nav-list {
@@ -87,7 +64,7 @@
   top: calc(100% + var(--space-2));
   left: 50%;
   transform: translateX(-50%);
-  width: 500px;
+  width: 550px;
   grid-template-columns: 1fr 1fr;
   gap: var(--space-1);
   padding: var(--space-2);

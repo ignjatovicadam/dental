@@ -4,26 +4,26 @@
     <div class="container">
       <div class="contact-card">
         <div class="contact-info">
-          <h2>Get in Touch</h2>
+          <h2>Stupite u kontakt</h2>
           <p>
-            We are here to answer all your questions and schedule your next appointment. Write to
-            us, call us, or drop by: your new smile starts here.
+            Tu smo da odgovorimo na sva vaša pitanja i pomognemo vam da zakažete svoj sledeći
+            termin. Pišite nam, pozovite nas ili nas posetite — vaš novi osmeh počinje ovde.
           </p>
 
           <ul class="contact-list">
             <li>
-              <span class="contact-label">Phone</span>
-              <a class="contact-option" href="tel:+15551234567">+1 (555) 123-4567</a>
+              <span class="contact-label">Telefon</span>
+              <a class="contact-option" href="tel:+381112571224">011 257 12 24</a>
             </li>
             <li>
-              <span class="contact-label">Email</span>
-              <a class="contact-option" href="mailto:hello@dentalclinic.com"
-                >hello@dentalclinic.com</a
+              <span class="contact-label">E-mail</span>
+              <a class="contact-option" href="mailto:kontakt@stomatologlukic.rs"
+                >kontakt@stomatologlukic.rs</a
               >
             </li>
             <li>
-              <span class="contact-label">Address</span>
-              <span class="contact-option">123 Smile Avenue, Suite 200, New York, NY 10001</span>
+              <span class="contact-label">Adresa</span>
+              <span class="contact-option">Titova 14, Beograd</span>
             </li>
           </ul>
         </div>
@@ -31,7 +31,7 @@
         <div class="contact-map">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.215!2d-73.9857!3d40.7484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1680000000000"
-            title="Dental clinic location"
+            title="Lokacija ordinacije"
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
             allowfullscreen

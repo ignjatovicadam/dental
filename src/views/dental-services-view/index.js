@@ -1,1 +1,5 @@
-export { default as DentalServicesTeethWhitening } from './dental-services-teeth-whitening.vue'
+export { default as DentalServicesAestheticDentistry } from './estetska-stomatologija/dental-service-estetska-stomatologija.vue'
+export { default as DentalServicesOralSurgery } from './oralna-hirurgija-i-implantologija/dental-service-oralna-hirurgija-i-implantologija.vue'
+export { default as DentalServicesPeriodontology } from './parodontologija/dental-service-parodontologija.vue'
+export { default as DentalServicesProsthetics } from './protetika/dental-service-protetika.vue'
+export { default as DentalServicesOrthodontics } from './ortodoncija/dental-service-ortodoncija.vue'

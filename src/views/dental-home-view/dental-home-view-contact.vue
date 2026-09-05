@@ -3,26 +3,25 @@
     <div class="container">
       <div class="contact-card">
         <div class="contact-info">
-          <h2 v-reveal>Get in Touch</h2>
+          <h2 v-reveal>Stupite u kontakt</h2>
           <p>
-            We are here to answer all your questions and schedule your next appointment. Write to
-            us, call us, or drop by: your new smile starts here.
+            Tu smo da odgovorimo na sva vaša pitanja i pomognemo vam da zakažete svoj sledeći termin. Pišite nam, pozovite nas ili nas posetite.
           </p>
 
           <ul class="contact-list">
             <li>
-              <span class="contact-label">Phone</span>
-              <a class="contact-option" href="tel:+15551234567">+1 (555) 123-4567</a>
+              <span class="contact-label">Telefon</span>
+              <a class="contact-option" href="tel:+15551234567">011 257 12 24</a>
             </li>
             <li>
-              <span class="contact-label">Email</span>
-              <a class="contact-option" href="mailto:hello@dentalclinic.com"
-                >hello@dentalclinic.com</a
+              <span class="contact-label">E-mail</span>
+              <a class="contact-option" href="mailto:kontakt@stomatologlukic.rs"
+                >kontakt@stomatologlukic.rs</a
               >
             </li>
             <li>
-              <span class="contact-label">Address</span>
-              <span class="contact-option">123 Smile Avenue, Suite 200, New York, NY 10001</span>
+              <span class="contact-label">Adresa</span>
+              <span class="contact-option">Titova 14, Beograd</span>
             </li>
           </ul>
         </div>

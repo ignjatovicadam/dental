@@ -3,41 +3,63 @@
     <div class="container">
       <div class="footer-content">
         <div class="footer-text">
-          <h3>Book Your Dental Consultation Today</h3>
-          <p>Contact us by sending us an email or via phone number</p>
+          <h3>Stomatolog Lukić</h3>
+          <p>Kontaktirajte nas telefonom</p>
         </div>
         <div class="footer-quick-links">
           <div class="footer-col">
-            <h3>Quick Links</h3>
+            <h3>Brzi linkovi</h3>
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><router-link :to="{ name: 'DentalHome' }">Početna</router-link></li>
+              <li><router-link :to="{ name: 'DentalContact' }">Kontakt</router-link></li>
             </ul>
           </div>
           <div class="footer-col">
-            <h3>Services</h3>
+            <h3>Usluge</h3>
             <ul>
-              <li><a href="#">Teeth Whitening</a></li>
-              <li><a href="#">Dental Implants</a></li>
-              <li><a href="#">Orthodontics</a></li>
-              <li><a href="#">Root Canal</a></li>
+              <li>
+                <router-link :to="{ name: 'DentalServicesAestheticDentistry' }">
+                  Estetska stomatologija
+                </router-link>
+              </li>
+              <li>
+                <router-link :to="{ name: 'DentalServicesOralSurgery' }">
+                  Oralna hirurgija i implantologija
+                </router-link>
+              </li>
+              <li>
+                <router-link :to="{ name: 'DentalServicesPeriodontology' }">
+                  Parodontologija
+                </router-link>
+              </li>
+              <li>
+                <router-link :to="{ name: 'DentalServicesProsthetics' }">
+                  Protetika
+                </router-link>
+              </li>
+              <li>
+                <router-link :to="{ name: 'DentalServicesOrthodontics' }">
+                  Ortodoncija
+                </router-link>
+              </li>
             </ul>
           </div>
         </div>
       </div>
       <div class="footer-bottom">
-        <span class="footer-copy">&copy; 2024 Dental Clinic. All rights reserved.</span>
+        <span class="footer-copy">&copy; {{ currentYear }} Stomatolog Lukić. Sva prava zadržana.</span>
         <ul class="footer-policy-links">
-          <li><router-link to="/privacy-policy">Privacy Policy</router-link></li>
-          <li><router-link to="/terms-of-use">Terms of Service</router-link></li>
+          <li><router-link to="/politika-privatnosti">Politika privatnosti</router-link></li>
+          <li><router-link to="/uslovi-koriscenja">Uslovi korišćenja</router-link></li>
         </ul>
       </div>
     </div>
   </footer>
 </template>
 
-<script setup></script>
+<script setup>
+const currentYear = new Date().getFullYear()
+</script>
 
 <style scoped>
 footer {

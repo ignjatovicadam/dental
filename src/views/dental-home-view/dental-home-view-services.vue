@@ -2,7 +2,7 @@
   <section>
     <div class="container">
       <div class="services-content flex align-items-center justify-content-between">
-        <h2 v-reveal class="text-h1 fw-bold text-gray-900">Specialized Dental Services</h2>
+        <h2 v-reveal class="text-h1 fw-bold text-gray-900">Stomatološke usluge</h2>
         <div class="services-control-buttons">
           <button
             class="services-arrow prev"
@@ -21,94 +21,99 @@
       <div class="services-track-wrapper py-4">
         <div ref="trackRef" class="services-list" :style="{ transform: trackTransform }">
           <div class="services-list-item">
-            <dental-card>
-              <div class="dental-card-header flex align-items-center justify-content-between">
-                <dental-icon-base>
-                  <img :src="toothCheckmark" alt="" />
-                </dental-icon-base>
-                <dental-icon-link />
-              </div>
-              <div class="dental-card-body">
-                <h3>Dental Cleaning</h3>
-                <p>
-                  Removes plaque and tartar to prevent cavities and gum disease, maintaining a
-                  healthy and bright smile.
-                </p>
-                <span>Read more</span>
-              </div>
-            </dental-card>
+            <router-link :to="{ name: 'DentalServicesAestheticDentistry' }" class="service-card-link">
+              <dental-card>
+                <div class="dental-card-header flex align-items-center justify-content-between">
+                  <dental-icon-base>
+                    <img :src="toothCheckmark" alt="" />
+                  </dental-icon-base>
+                  <dental-icon-link />
+                </div>
+                <div class="dental-card-body">
+                  <h3>Estetska stomatologija</h3>
+                  <p>
+                    Zahvaljujući modernim tehnikama, poput izbeljivanja zuba, faseta i korekcije oblika, vraćamo prirodnu belinu i harmoniju zuba.
+                  </p>
+                  <span>Saznajte više</span>
+                </div>
+              </dental-card>
+            </router-link>
           </div>
           <div class="services-list-item">
-            <dental-card>
-              <div class="dental-card-header flex align-items-center justify-content-between">
-                <dental-icon-base>
-                  <img :src="toothStar" alt="" />
-                </dental-icon-base>
-                <dental-icon-link />
-              </div>
-              <div class="dental-card-body">
-                <h3>Teeth Whitening</h3>
-                <p>
-                  Brightens teeth by removing stains and discoloration, enhancing the overall
-                  appearance of your smile.
-                </p>
-                <span>Read more</span>
-              </div>
-            </dental-card>
+            <router-link :to="{ name: 'DentalServicesOralSurgery' }" class="service-card-link">
+              <dental-card>
+                <div class="dental-card-header flex align-items-center justify-content-between">
+                  <dental-icon-base>
+                    <img :src="toothStar" alt="" />
+                  </dental-icon-base>
+                  <dental-icon-link />
+                </div>
+                <div class="dental-card-body">
+                  <h3>Oralna hirurgija i implantologija</h3>
+                  <p>
+                    Ugradnja zubnih implantata omogućava trajnu i estetski savršenu nadoknadu izgubljenih zuba.
+                  </p>
+                  <span>Saznajte više</span>
+                </div>
+              </dental-card>
+            </router-link>
           </div>
           <div class="services-list-item">
-            <dental-card>
-              <div class="dental-card-header flex align-items-center justify-content-between">
-                <dental-icon-base>
-                  <img :src="toothShield" alt="" />
-                </dental-icon-base>
-                <dental-icon-link />
-              </div>
-              <div class="dental-card-body">
-                <h3>Cavity Repair</h3>
-                <p>
-                  Restoration of teeth damaged by cavities with aesthetic materials that blend
-                  perfectly with the natural tooth colour.
-                </p>
-                <span>Read more</span>
-              </div>
-            </dental-card>
+            <router-link :to="{ name: 'DentalServicesPeriodontology' }" class="service-card-link">
+              <dental-card>
+                <div class="dental-card-header flex align-items-center justify-content-between">
+                  <dental-icon-base>
+                    <img :src="toothShield" alt="" />
+                  </dental-icon-base>
+                  <dental-icon-link />
+                </div>
+                <div class="dental-card-body">
+                  <h3>Parodontologija</h3>
+                  <p>
+                    Pravovremenim tretmanima i savremenim metodama, zaustavljamo povlačenje desni i gubitak zuba.
+                  </p>
+                  <span>Saznajte više</span>
+                </div>
+              </dental-card>
+            </router-link>
           </div>
           <div class="services-list-item">
-            <dental-card>
-              <div class="dental-card-header flex align-items-center justify-content-between">
-                <dental-icon-base>
-                  <img :src="toothRetainers" alt="" />
-                </dental-icon-base>
-                <dental-icon-link />
-              </div>
-              <div class="dental-card-body">
-                <h3>Dental Alignment</h3>
-                <p>
-                  Corrects misaligned teeth and bite issues, improving oral health and enhancing the
-                  appearance of your smile.
-                </p>
-                <span>Read more</span>
-              </div>
-            </dental-card>
+            <router-link :to="{ name: 'DentalServicesProsthetics' }" class="service-card-link">
+              <dental-card>
+                <div class="dental-card-header flex align-items-center justify-content-between">
+                  <dental-icon-base>
+                    <img :src="toothRetainers" alt="" />
+                  </dental-icon-base>
+                  <dental-icon-link />
+                </div>
+                <div class="dental-card-body">
+                  <h3>Protetika</h3>
+                  <p>
+                    Koristimo moderne materijale koji oponašaju prirodan izgled zuba, uz maksimalnu udobnost i dugotrajnost rezultata.
+                  </p>
+                  <span>Saznajte više</span>
+                </div>
+              </dental-card>
+            </router-link>
           </div>
           <div class="services-list-item">
-            <dental-card>
-              <div class="dental-card-header flex align-items-center justify-content-between">
-                <dental-icon-base>
-                  <img :src="toothCheckmark" alt="" />
-                </dental-icon-base>
-                <dental-icon-link />
-              </div>
-              <div class="dental-card-body">
-                <h3>Dental Cleaning</h3>
-                <p>
-                  Removes plaque and tartar to prevent cavities and gum disease, maintaining a
-                  healthy and bright smile.
-                </p>
-                <span>Read more</span>
-              </div>
-            </dental-card>
+            <router-link :to="{ name: 'DentalServicesOrthodontics' }" class="service-card-link">
+              <dental-card>
+                <div class="dental-card-header flex align-items-center justify-content-between">
+                  <dental-icon-base>
+                    <img :src="toothCheckmark" alt="" />
+                  </dental-icon-base>
+                  <dental-icon-link />
+                </div>
+                <div class="dental-card-body">
+                  <h3>Ortodoncija</h3>
+                  <p>
+                    Nudimo moderna rešenja od klasičnih fiksnih aparata do providnih folija, za diskretno i efikasno poravnanje zuba.
+                  </p>
+                  <span>Saznajte više</span>
+                </div>
+              </dental-card>
+            </router-link>
           </div>
         </div>
       </div>
@@ -229,7 +234,14 @@ section {
   flex: 0 0 calc((100% - var(--grid-gap) * 2) / 3.2);
 }
 
-.services-list-item:hover {
+.service-card-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  height: 100%;
+}
+
+.service-card-link:hover {
   cursor: pointer;
 }
 

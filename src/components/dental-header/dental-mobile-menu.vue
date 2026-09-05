@@ -2,11 +2,11 @@
   <div class="mobile-menu hidden-on-desktop" :class="{ open: open }">
     <div class="container py-4">
       <ul class="flex flex-col gap-4">
-        <li><router-link to="/" @click="$emit('close')">Home</router-link></li>
+        <li><router-link to="/" @click="$emit('close')">Početna</router-link></li>
 
         <li class="mobile-dropdown">
           <button class="mobile-dropdown-trigger" @click="servicesOpen = !servicesOpen">
-            Services
+            Usluge
             <svg
               class="chevron"
               :class="{ rotated: servicesOpen }"
@@ -25,30 +25,19 @@
 
           <div class="mobile-submenu" :class="{ open: servicesOpen }">
             <div class="mobile-submenu-inner">
-              <router-link to="/services/teeth-whitening" @click="$emit('close')"
-                >Teeth Whitening</router-link
+              <router-link
+                v-for="service in services"
+                :key="service.routeName"
+                :to="{ name: service.routeName }"
+                @click="$emit('close')"
               >
-              <router-link to="/services/dental-cleaning" @click="$emit('close')"
-                >Dental Cleaning</router-link
-              >
-              <router-link to="/services/cavity-repair" @click="$emit('close')"
-                >Cavity Repair</router-link
-              >
-              <router-link to="/services/dental-implants" @click="$emit('close')"
-                >Dental Implants</router-link
-              >
-              <router-link to="/services/orthodontics" @click="$emit('close')"
-                >Orthodontics</router-link
-              >
-              <router-link to="/services/root-canal" @click="$emit('close')"
-                >Root Canal</router-link
-              >
+                {{ service.label }}
+              </router-link>
             </div>
           </div>
         </li>
 
-        <li><router-link to="/prices" @click="$emit('close')">Prices</router-link></li>
-        <li><router-link to="/contact" @click="$emit('close')">Contact</router-link></li>
+        <li><router-link to="/kontakt" @click="$emit('close')">Kontakt</router-link></li>
       </ul>
     </div>
   </div>
@@ -56,6 +45,7 @@
 
 <script setup>
 import { ref, watch } from 'vue'
+import { SERVICES_NAV } from '@/views/dental-services-view/services-nav'
 
 const props = defineProps({
   open: {
@@ -66,6 +56,7 @@ const props = defineProps({
 
 defineEmits(['close'])
 
+const services = SERVICES_NAV
 const servicesOpen = ref(false)
 
 watch(
