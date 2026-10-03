@@ -4,9 +4,9 @@
     <div class="hero-overlay"></div>
     <div class="container">
       <div class="hero-content">
-        <h1>Legal Documents</h1>
+        <h1>Dokumenta</h1>
         <p>
-          Please review the terms and conditions that govern the use of our website and services.
+          Molimo vas da pregledate uslove i odredbe koji uređuju korišćenje našeg veb-sajta i usluga.
         </p>
       </div>
     </div>

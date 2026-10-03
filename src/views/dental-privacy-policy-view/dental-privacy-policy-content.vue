@@ -2,12 +2,21 @@
   <section class="section-pad">
     <div class="container">
       <div class="content-col">
-        <h2 class="text-h1 fw-bold font-display text-gray-900">Privacy Policy</h2>
+        <h2 class="text-h1 fw-bold font-display text-gray-900">Polisa privatnosti</h2>
         <p class="description font-body text-gray-700">
-          This privacy policy explains how we collect, use, and protect your personal information
-          when you visit our website or use our dental services. We are committed to safeguarding
-          your data and ensuring transparency in all our practices. By using our services, you agree
-          to the collection and use of information in accordance with this policy.
+        Stomatološka ordinacija Stomatolog Lukić posvećena je zaštiti vaše privatnosti i bezbednosti vaših podataka. Ova polisa objašnjava naš pristup prikupljanju i obradi informacija prilikom posete našem veb-sajtu.
+        </p>
+        <p class="description font-body text-gray-700">
+        Naš veb-sajt je informativnog karaktera. Ne koristimo kontakt forme, pa putem sajta ne prikupljamo nikakve lične podatke (poput imena, imejl adresa ili brojeva telefona).
+        </p>
+        <p class="description font-body text-gray-700">
+        Naš sajt ne koristi kolačiće (cookies) niti bilo koje druge tehnologije za praćenje i analiziranje ponašanja posetilaca.
+        </p>
+        <p class="description font-body text-gray-700">
+        Svi lični i zdravstveni podaci koje nam pružite lično ili putem telefona prilikom zakazivanja pregleda i lečenja prikupljaju se i čuvaju u strogoj poverljivosti, u skladu sa važećim Zakonom o zaštiti podataka o ličnosti i zakonima iz oblasti zdravstvene zaštite.
+        </p>
+        <p class="description font-body text-gray-700">
+        Za sva pitanja u vezi sa privatnošću i zaštitom podataka možete nas kontaktirati direktno putem telefona ili imejla navedenih na sajtu.
         </p>
       </div>
     </div>

@@ -4,9 +4,9 @@
     <div class="hero-overlay"></div>
     <div class="container">
       <div class="hero-content">
-        <h1>Legal Documents</h1>
+        <h1>Dokumenta </h1>
         <p>
-          Your privacy matters to us. Learn how we handle and protect your personal information.
+          Vaša privatnost nam je važna. Saznajte kako postupamo sa vašim ličnim podacima i kako ih štitimo.
         </p>
       </div>
     </div>

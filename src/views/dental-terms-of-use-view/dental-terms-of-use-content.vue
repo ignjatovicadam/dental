@@ -2,12 +2,27 @@
   <section class="section-pad">
     <div class="container">
       <div class="content-col">
-        <h2 class="text-h1 fw-bold font-display text-gray-900">Terms of Use</h2>
+        <h2 class="text-h1 fw-bold font-display text-gray-900">Uslovi korišćenja</h2>
         <p class="description font-body text-gray-700">
-          By accessing and using this website, you accept and agree to be bound by the terms and
-          conditions outlined here. These terms apply to all visitors, users, and others who access
-          or use our services. If you disagree with any part of the terms, you may not access our
-          website or use our services.
+          Pristupanjem i korišćenjem ovog veb-sajta, prihvatate i pristajete da budete vezani ovde navedenim uslovima i odredbama.
+        </p>
+        <p class="description font-body text-gray-700">
+          Ovi uslovi se odnose na sve posetioce, korisnike i druga lica koja pristupaju ili koriste naše usluge.
+        </p>
+        <p class="description font-body text-gray-700">
+          Ukoliko se ne slažete sa bilo kojim delom ovih uslova, ne možete pristupati sajtu niti koristiti naše usluge.
+        </p>
+        <p class="description font-body text-gray-700">
+          Sadržaj na ovom sajtu pruža se isključivo u informativne svrhe i ne predstavlja formalan medicinski savet, dijagnozu niti plan lečenja.
+        </p>
+        <p class="description font-body text-gray-700">
+          Sve informacije o stomatološkim uslugama i cenama podložne su promenama, a konačne procene daju se nakon direktnog pregleda u ordinaciji.
+        </p>
+        <p class="description font-body text-gray-700">
+          Zakazivanje termina putem telefona ili imejla obavezuje na poštovanje zakazanog vremena ili blagovremeno otkazivanje najmanje 24 sata ranije.
+        </p>
+        <p class="description font-body text-gray-700">
+          Sav tekstualni i vizuelni sadržaj na sajtu vlasništvo je ordinacije Stomatolog Lukić i ne sme se preuzimati bez prethodne saglasnosti.
         </p>
       </div>
     </div>

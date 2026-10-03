@@ -23,7 +23,6 @@ const router = createRouter({
       name: 'DentalHome',
       component: DentalHomeView,
       meta: {
-        // Home shows just the site name (no prefix)
         title: null,
         description: DEFAULT_DESCRIPTION,
       },
