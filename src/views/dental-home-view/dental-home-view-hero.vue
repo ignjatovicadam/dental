@@ -2,7 +2,7 @@
   <section class="hero">
     <img
       :src="img"
-      alt="Dentist app welcome image woman smiling"
+      alt="Stomatolog Lukić — ordinacija u Beogradu"
       class="hero-img"
       loading="eager"
     />
@@ -22,7 +22,7 @@
 </template>
 
 <script setup>
-import img from '@/assets/images/2.png'
+import img from '@/assets/images/stomatolog-lukic-slika-osmeh.webp'
 import { DentalButton } from '@/components'
 
 </script>

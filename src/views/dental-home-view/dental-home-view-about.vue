@@ -8,14 +8,14 @@
         </p>
       </div>
       <div class="dental-clinic-photo">
-        <img :src="img" alt="Dental Clinic Photo" />
+        <img :src="img" alt="Stomatolog Lukić — ordinacija" />
       </div>
     </div>
   </section>
 </template>
 
 <script setup>
-import img from '@/assets/images/dental-clinic-photo.png'
+import img from '@/assets/images/stomatolog-lukic-ordinacija.webp'
 </script>
 
 <style scoped>

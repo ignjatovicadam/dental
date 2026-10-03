@@ -1,6 +1,6 @@
 <template>
   <div class="hero">
-    <img :src="img" alt="Dental clinic hero image" loading="eager" />
+    <img :src="img" alt="Stomatolog Lukić — ordinacija u Beogradu" loading="eager" />
     <div class="hero-overlay"></div>
     <div class="container">
       <div class="hero-content">
@@ -14,7 +14,7 @@
 </template>
 
 <script setup>
-import img from '@/assets/images/2.png'
+import img from '@/assets/images/stomatolog-lukic-slika-osmeh.webp'
 </script>
 
 <style scoped>

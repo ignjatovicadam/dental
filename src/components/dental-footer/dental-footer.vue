@@ -100,7 +100,14 @@ footer {
 
 .footer-quick-links {
   display: flex;
+  flex-direction: column;
   gap: var(--space-9);
+}
+
+@media (min-width: 768px) {
+  .footer-quick-links {
+    flex-direction: row;
+  }
 }
 
 .footer-col h3 {

@@ -1,6 +1,6 @@
 <template>
   <div class="hero">
-    <img :src="heroImg" alt="Estetska stomatologija" loading="eager" />
+    <img :src="heroImg" alt="Stomatolog Lukić - Estetska stomatologija" loading="eager" />
     <div class="hero-overlay"></div>
     <div class="container">
       <div class="hero-content">
@@ -83,7 +83,7 @@
 </template>
 
 <script setup>
-import heroImg from '@/assets/images/hero-background.jpg'
+import heroImg from '@/assets/images/stomatolog-lukic-zubi.webp'
 import { DentalCard } from '@/components'
 </script>
 

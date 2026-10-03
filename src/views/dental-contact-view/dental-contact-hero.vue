@@ -15,7 +15,7 @@
 </template>
 
 <script setup>
-import img from '@/assets/images/2.png'
+import img from '@/assets/images/stomatolog-lukic-slika-osmeh.webp'
 </script>
 
 <style scoped>
